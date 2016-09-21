@@ -1,0 +1,23 @@
+{
+  "name": "bear-bot",
+  "version": "1.0.0",
+  "description": "A bot, named Bear.",
+  "main": "bot.js",
+  "dependencies": {
+    "botkit": "0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinned/bear-bot.git"
+  },
+  "author": "Dennis Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinned/bear-bot/issues"
+  },
+  "homepage": "https://github.com/sinned/bear-bot#readme"
+}
