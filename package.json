@@ -4,7 +4,8 @@
   "description": "A bot, named Bear.",
   "main": "bot.js",
   "dependencies": {
-    "botkit": "0.2.2"
+    "botkit": "0.2.2",
+    "dashbot": "0.7.4"
   },
   "devDependencies": {},
   "scripts": {
