@@ -4,12 +4,15 @@
   "description": "A bot, named Bear.",
   "main": "bot.js",
   "dependencies": {
-    "botkit": "0.2.2",
-    "dashbot": "0.7.4"
+    "botanalytics": "^1.0.3",
+    "botkit": "0.4.7",
+    "dashbot": "^0.8.4",
+    "dotenv": "2.0.0",
+    "nodemon": "1.11.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -r dotenv/config bot.js"
   },
   "repository": {
     "type": "git",
